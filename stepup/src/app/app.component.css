@@ -1,0 +1,22 @@
+html,body{
+    height: 100%;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b2b2;
+    height: 40vh;
+    align-items: center;
+}
+
+.plus , .counter, .minus{
+    display: flex;
+    height: 30vh;
+    width: 20vw;
+    border: 2px solid black;
+    color: #ff0000;
+    background-color: #f3f3a1;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+}
