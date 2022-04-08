@@ -1,0 +1,6 @@
+<input type="text" [(ngModel)]="name">
+<h1>{{name}}</h1>
+<div class="visible" *ngIf="display">I am visible</div>
+<button (click)="change()">Click to Toggle</button>
+<app-item></app-item>
+<app-home></app-home>

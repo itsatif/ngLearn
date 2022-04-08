@@ -1,0 +1,70 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+
+
+
+.user-details-container {
+  border-right: 2px solid black;
+  padding: 20px;
+  height: 100%;
+  width: 170px;
+  margin-left: 0;
+ 
+
+
+  .user-title {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+  }
+
+  .user-bio {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.70);
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    border-bottom: 1px solid black;
+  }
+}
+
+
+
+.full-width {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  font-size: 12px;
+}
+
+.double-line-hint {
+  .mat-input-hint-wrapper {
+    flex-wrap: wrap;
+
+    .hint-line {
+      flex: 0 0 100%;
+    }
+  }
+}
+
+.submit-btn {
+  margin-top: 30px;
+}

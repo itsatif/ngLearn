@@ -1,0 +1,12 @@
+.visible{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+button{
+    height: 1.5rem;
+    width: 10vw;
+    background-color: #cccd2d;
+    border-radius: 10px;
+}
